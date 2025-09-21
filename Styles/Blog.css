@@ -29,6 +29,10 @@
     font-size: 32px;
     font-weight: 700;
 }
+.nav-name:hover{
+    text-shadow: 4px 4px 5px skyblue;
+    color: green;
+}
 .nav-button{
     height: 52px;
     width: 116px;
@@ -45,6 +49,7 @@
     color: white;
     background-color: black;
     cursor: pointer;
+    box-shadow: 4px 4px 10px skyblue;
 }
 
 
@@ -61,6 +66,15 @@
 }
 .white{
     color: #F5F5F5;
+}
+.btn-1{
+  background-color: #5490F5;  
+}
+.btn-2{
+    background-color: #09A15C;
+}
+.btn-3{
+    background-color: #FFC239;
 }
 
 
@@ -111,6 +125,7 @@
 .btn-hero:hover{
     color: rgba(191, 205, 203, 1);
     background-color: black;
+    cursor: pointer;
 }
 
 
@@ -165,17 +180,21 @@
     height: 770px;
     width: 1350px;
     /* border: 1px solid green ; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
      margin: 20px 160px 80px 160px;
      /* gap: 32px; */
 }
-.vission-content{}
+.vission-content{
+    margin-bottom: 80px;
+}
 .vission-description{
     font-size: 40px;
     font-weight: 700;
     color: #0E0E0E;
+    margin-bottom: 24px;
 }
 .vission-paragaraph{
+    margin-bottom: 32px;
      font-size: 18px;
     font-weight: 400;
     line-height: 24px;
@@ -184,11 +203,12 @@
 }
 .vission-card{
      display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 30 px;
+    gap: 30px;
     /* background-color: rgba(14, 14, 14, 0.15); */
     border-radius: 16px;
+    margin-bottom: 32px;
 }
 .vission-card img{
     width: 64px;
@@ -211,10 +231,134 @@
     font-size: 16px;
     font-weight: 400;
     color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 24px;
+}
+.btn-vission{
+    width: 130px;
+    height: 41px;
+    padding: 11px 20px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn-vission:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 4px 4px 4px skyblue;
+    cursor: pointer;
+}
+.vission-last{
+    padding: 32px 24px;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    box-shadow: 0px 6px 50px 0px rgba(14, 14, 14, 0.15);
+    border-radius: 16px;  
+}
+.last-des{
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.8);
+
+}
+.last-name{
+    margin-bottom: 4px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.8);
+
+}
+.lastname-des{
+        margin-top: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.6);
 }
 
-.btn-vission{}
-.vission-last{}
-.last-des{}
-.last-name{}
-.lastname-des{}
+/* Questation and Answer */
+
+.questation{
+      height: 490px;
+    width: 1350px;
+    /* border: 1px solid green ; */
+    /* border: 1px solid red; */
+     margin: 20px 160px 80px 160px;
+     /* gap: 32px; */
+}
+.questation-title{
+    height: 48px;
+    font-size: 40px;
+    font-weight: 700px; 
+    color: #0E0E0E;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+.questation-1234{
+    padding: 32px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0px 6px 50px 0px rgba(14, 14, 14, 0.15);
+}
+.questation-1{
+    background-color: #C6E4D6;
+    border: 0.1px solid rgba(14, 14, 14, 0.5);;
+    padding: 7px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.highlight{
+    font-size: 16px;
+    font-weight: 600;
+    color: #0E0E0E;
+}
+.questation-1 h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E0E0E;
+}
+/* .btn-questation{
+    padding: 24px;
+    background-color: #FFFFFF;
+    border: none;
+} */
+.btn-qus2{
+    padding: 10px 14px;
+    background-color: #c6e4d6;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.sel{
+    font-size: 16px;
+    font-weight: 550;
+}
+.btn-qus2:hover{
+     background-color: #8A2BE2;
+     color: white;
+}
+.questation-2{
+     border: 0.1px solid rgba(14, 14, 14, 0.5);;
+    padding: 7px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.questation-3{
+     border: 0.1px solid rgba(14, 14, 14, 0.5);;
+    padding: 7px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.questation-4{
+     border: 0.1px solid rgba(14, 14, 14, 0.5);;
+    padding: 7px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
