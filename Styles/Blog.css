@@ -366,10 +366,10 @@
 /* Recent News */
 
 .news{
-      height: 1410px;
+      height: 1430px;
     width: 1350px;
     /* border: 1px solid green ; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
      margin: 20px 160px 80px 160px;
      /* gap: 32px; */
 }
@@ -385,4 +385,64 @@
     font-weight: 400;
     color: rgba(14,14,14,0.7);
     margin-bottom: 0px;
+}
+.news-overall{}
+.news-1{
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-top: 32px;
+    padding: 48px;
+    border-radius: 24px;
+    box-shadow: 0px 6px 50px 0px rgba(14, 14, 14, 0.15);
+}
+.news-1>img{
+    border-radius: 24px;
+    width: 408px;
+    height: 306px;
+}
+.news-1.1{}
+.news-title{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(14,14,14,0.8);
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+.news-1.1>img{
+    width: 134px;
+    height: 40px;
+    margin-bottom: 12px;
+}
+.news-time{
+    display: flex;
+    /* align-items:center; */
+    gap: 12px;
+    /* height: 24px; */
+    /* margin-bottom: 12px; */
+    /* margin-top: 12px; */
+}
+.news-des{
+    margin-top: 0px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(14,14,14,0.7);
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+.btn-news{
+    background-color: #006A50;
+    border-radius: 8px;
+    padding: 13px 26px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.btn-news:hover{
+     background-color: #8A2BE2;
+     color: white;
+     transition: all 0.9s ease;
+     cursor: pointer;
 }
